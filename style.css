@@ -37,9 +37,9 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.home,
-.menu,
-.contact {
+.home-btn,
+.menu-btn,
+.contact-btn {
   font-size: 36px;
   padding: 10px;
   margin: 10px;
@@ -49,22 +49,22 @@ body {
 
 }
 
-.home:hover,
-.menu:hover,
-.contact:hover{
+.home-btn:hover,
+.menu-btn:hover,
+.contact-btn:hover{
   cursor: pointer;
   background-color: white;
   color: black;
 }
 
-.home:focus,
-.menu:focus,
-.contact:focus{
+.home-btn:focus,
+.menu-btn:focus,
+.contact-btn:focus{
   background-color: white;
   color: black;
 }
 
-.main{
+.home{
   margin-top: 40px;
   display: flex;
   flex-direction: column;

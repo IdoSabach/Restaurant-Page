@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurant Page </title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="head">Welcome to DDD</header>
+    <div class="sub-head">
+      <button class="home-btn">Home</button>
+      <button class="menu-btn">Menu</button>
+      <button class="contact-btn">Contact</button>
+    </div>
+    <main class="home">
+      <div class="text-of-head-main">
+        The largest hamburger chain in the world!
+      </div>
+      <img class="ido-img" src="./images/ido-food.jpeg" alt="" />
+      <div class="footer-text">Order online or visit us!</div>
+    </main>
 
-  <header class="head">Welcome to DDD</header>
-  <div class="sub-head">
-    <button class="home-btn">Home</button>
-    <button class="menu-btn">Menu</button>
-    <button class="contact-btn">Contact</button>
-  </div>
-  <main class="home">
-    <div class="text-of-head-main">The largest hamburger chain in the world!</div>
-    <img class="ido-img" src="./images/ido-food.jpeg" alt="">
-    <div class="footer-text">Order online or visit us!</div>
-  </main>
+    <footer class="footer">
+      Build by Ido Sabach
+      <a href="https://github.com/IdoSabach"
+        ><img
+          class="git-icon"
+          width="15"
+          height="15"
+          src="https://img.icons8.com/ios/50/000000/github--v1.png"
+          alt="github--v1"
+      /></a>
+    </footer>
 
-  <footer class="footer">Build by Ido Sabach <a href="https://github.com/IdoSabach"><img class="git-icon" width="15" height="15" src="https://img.icons8.com/ios/50/000000/github--v1.png" alt="github--v1"/></a> </footer>
-
-
-  <div id="content"></div>
-  <script src="./main.js"></script>
-</body>
+    <div id="content"></div>
+    <script src="./main.js"></script>
+  </body>
 </html>

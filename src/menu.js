@@ -26,7 +26,7 @@ function createMenuPage() {
 function viewMenu(){
   const main = document.getElementById('main')
   main.textContent = ''
-  main.appendChild(createMenuPage)
+  main.appendChild(createMenuPage())
 }
 
 export default viewMenu;

@@ -152,3 +152,21 @@ body {
   margin: 25px;
 }
 
+.address-image{
+  width: 700px;
+  margin: 40px;
+}
+
+.contact{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone,.address{
+  color: white;
+  margin-top: 5px;
+  font-size: 28px;
+}
+

@@ -113,7 +113,7 @@ body {
   cursor: pointer;
 }
 
-.grid{
+.menu-grid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   column-gap: 30px;
@@ -139,6 +139,10 @@ body {
 }
 .img-hmburger{
   margin-top: 25px;
+}
+
+.image-size{
+  width: 120px;
 }
 
 .text-for-food{

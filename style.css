@@ -127,3 +127,24 @@ body {
   background-color: black;
   opacity: 0.7;
 }
+
+.box:hover{
+  background-color: rgb(58, 58, 58);
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-hmburger{
+  margin-top: 25px;
+}
+
+.text-for-food{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin: 25px;
+}
+

@@ -10,7 +10,7 @@ function createContactPage() {
   const address = document.createElement("div");
   contact.classList.add("address");
   contact.appendChild(address);
-  phone.textContent = "Address : The nation of Israel is alive and well!";
+  address.textContent = "Address : The nation of Israel is alive and well!";
 
   const imageAddress = document.createElement("img");
   contact.classList.add("address-image");

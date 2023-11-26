@@ -9,6 +9,7 @@ function createHeader(){
   const header = document.createElement('header')
   header.classList.add('head')
   header.textContent = "Welcome to DDD"
+  header.style.width = "100%"
 
   return header
 }

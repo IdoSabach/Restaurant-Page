@@ -14,19 +14,15 @@ function createMenuPage() {
     const image = document.createElement('img')
     image.classList.add("image-size")
     image.appendChild(boxImage)
-    image.src = "https://img.icons8.com/fluency/48/hamburger.png"
+    image.src = "./images/icons8-hamburger-96.png"
 
     const textBox = document.createElement('div')
     box.appendChild(textBox)
     textBox.classList.add('text-for-food')
     textBox.textContent = "A kind of hamburger"
   }
-}
 
-function viewMenu(){
-  const main = document.getElementById('main')
-  main.textContent = ''
-  main.appendChild(createMenuPage())
+  return menu
 }
+export default createMenuPage;
 
-export default viewMenu;

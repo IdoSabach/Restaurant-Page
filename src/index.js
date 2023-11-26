@@ -1,5 +1,4 @@
-import createHomePage from "./home"
+import mainAllView from "./main";
 
+  mainAllView();
 
-const content = document.getElementById("content")
-content.appendChild(createHomePage())

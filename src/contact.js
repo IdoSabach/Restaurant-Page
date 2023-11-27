@@ -16,7 +16,7 @@ function createContactPage() {
   contact.classList.add("address-image");
   contact.appendChild(imageAddress);
   imageAddress.src = "./images/mapForWeb.png";
-  imageAddress.style.width = '850px'
+  imageAddress.style.width = '800px'
 
   return contact;
 }

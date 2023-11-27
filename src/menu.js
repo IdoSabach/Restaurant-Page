@@ -2,7 +2,7 @@ function createMenuPage() {
   const menu = document.createElement("div");
   menu.classList.add("menu-grid");
 
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 4; i++) {
     const box = document.createElement("div");
     box.classList.add("box");
     menu.appendChild(box);
@@ -13,7 +13,7 @@ function createMenuPage() {
 
     const image = document.createElement('img')
     image.classList.add("image-size")
-    image.appendChild(boxImage)
+    boxImage.appendChild(image)
     image.src = "./images/icons8-hamburger-96.png"
 
     const textBox = document.createElement('div')
